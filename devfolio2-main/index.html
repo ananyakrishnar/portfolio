@@ -82,7 +82,7 @@
             <div class="container">
                 <div class="section-header text-center">
                 
-                    <h2>About <span>Me</span></h2>
+                    <h2>About Me</h2>
                 </div>
                 <div class="container banner-text">
                 <p>Hello! I am an aspiring Full Stack Developer with interest in Python and Django. I have been motivated to code because of my passion for creating real-world web applications that contribute to making a difference.I am actively trying to build my skills in both front end and back end technologies to create userfriendly applications. I hold a degree in Btech Electronics And Communication from APJ Abdul Kalam Technological University. I believe that my background has helped me gain strong founadtion in problem solving and analytical thinking. I believe these skills to be crucial in turning ideas into functional solutions. I always aim to know more new technologies, frameworks and I am eager to grow ahead of development trends always. I am looking for strong projects where I can develop as a developer and contribute value to and grow together with. Get in touch, and let's see how we can build great stuff together!
@@ -361,7 +361,9 @@
                         <div class="col-md-8 offset-md-2">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate" method="post" data-netlify="true">
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate" method="post" data-netlify="true" 
+                                >
+                                    <input type="hidden" name="form-name" value="sentMessage">
                                     <h1 style="color: #ffffff; padding: 50px;">Have a query? Message me here</h1>
                                     <div class="control-group">
                                         <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" name="name" />
